@@ -1,0 +1,14 @@
+{
+  "name": "discord-coinglass-futures-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Discord bot that returns CoinGlass futures data bundles with mobile-downloadable files.",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/config.js && node --check src/coinglass.js && node --check src/discord.js && node --check src/report.js && node --check src/chart.js && node --check src/util.js"
+  }
+}
